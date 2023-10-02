@@ -1,0 +1,165 @@
+/* Add this CSS to your existing styles.css or include it in a separate CSS file */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Additional styles for the services page */
+.service h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* Add this CSS to your existing styles.css or include it in a separate CSS file */
+.contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-form form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Add this CSS to your existing styles.css or include it in a separate CSS file */
+.map-container {
+    max-width: 100%;
+    margin-top: 20px;
+    position: relative;
+    background-color: #000000;
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.map-marker {
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50; /* Marker color */
+    border-radius: 50%; /* Rounded marker */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
